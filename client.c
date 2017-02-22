@@ -15,7 +15,7 @@ int                   main(int argc, char **argv)
   sock = socket(AF_INET, SOCK_STREAM, 0);
   if (sock < 0)
   {
-    perror("Failed to socket rubies");
+    perror("Socket empty");
     close(sock);
     exit(1);
   }
